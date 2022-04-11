@@ -1,0 +1,81 @@
+:root{
+    --red: #B11313;
+    --yellow: #F1C530;
+    --blue: #114C92;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+@font-face{
+    font-family: 'far-from';
+    src: url(../Far-From\ Homecoming.woff);
+}
+
+html h1, h2{
+font-family: "far-from";
+text-transform: uppercase;
+}
+
+html h2{
+    font-size: 18px;
+}
+html p{
+    font-size: 12px;  
+}
+
+* {
+    color: var(--white);
+}
+ul{
+
+}
+li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+ li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px
+ }
+header {
+    background-color: var(--red);
+    justify-content: space-around;
+
+}
+.type1{
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    color: var(--red);
+}
+
+.type2{
+    background-color: rgba(0,0,0,0);
+    border: solid 1px var(--white) ;
+    border-radius: 10px;
+    width: 200px;
+}
+footer {
+    font-size: 12px;  
+}
+input, textarea{
+    border-radius: 10px;
+    border: solid 1px var(--black);
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+.icon span{
+    background-color: var(--red) !important;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+ }
+ 
+ select {
+     background-color: var(--red) !important;
+     border-radius: 10px;
+ }

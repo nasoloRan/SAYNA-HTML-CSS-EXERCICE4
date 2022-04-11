@@ -1,0 +1,20 @@
+.img img{
+    width: 100%;
+    padding: 5%;
+}
+.univers_bleu{
+    margin-left: 50%;
+    margin-right: 10%;
+    background-color: RGBa(17,76,146,0.5)
+}
+.icon span{
+    background-color: var(--blue) !important;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+ }
+ 
+ select {
+     background-color: var(--bleu) !important;
+     border-radius: 10px;
+ }

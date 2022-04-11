@@ -1,0 +1,11 @@
+.icon span{
+    background-color: var(--red) !important;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+ }
+ 
+ select {
+     background-color: var(--red) !important;
+     border-radius: 10px;
+ }

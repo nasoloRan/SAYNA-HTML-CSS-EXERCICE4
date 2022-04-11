@@ -1,0 +1,9 @@
+.icon span{
+   background-color: red !important;
+   border-radius: 50px;
+}
+
+select {
+    background-color: var(--red) !important;
+    border-radius: 10px;
+}
